@@ -1,0 +1,9 @@
+<p>listado de heroes</p>
+<h3 *ngIf=" b !=='' else noborrado">el heroe borrado es: {{b}}</h3> 
+<ul>
+    <li *ngFor="let heroe of heroes; let i = index">{{i+1}} - {{heroe}}</li>   
+</ul>
+<button  (click)="borrarheroe()">Borrar heroe</button>
+<br>
+<ng-template #noborrado> Aun no se elimina un heroe</ng-template>
+<!-- el else hara referencia a este ng-template -->
