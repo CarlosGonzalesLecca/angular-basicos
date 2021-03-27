@@ -1,0 +1,11 @@
+<h1 style="background: #e68e20;">Dragon Ball Z</h1>
+<hr><br>
+<section class="seccion">
+    <hr>
+    <div class="lista ">
+        <app-personajes [heroesdbz]="heroesdbz"></app-personajes>        
+    </div><hr>    
+    <div class="formulario ">
+        <app-agregar (onNuevoPersonaje)="agregarnuevopersonaje($event)"></app-agregar>        
+    </div>
+</section>

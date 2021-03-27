@@ -40,3 +40,35 @@
   .p-1 {
     padding: 1px;
   }
+
+  .seccion{
+    display: flex;
+  }
+  .lista{
+    flex-grow: 2;
+  }
+  .formulario{
+    flex-grow: 1;
+  }
+  .lista h3{
+    text-align: center;
+  }
+  .formulario{
+    background: #ea76c1;
+  }
+  .formulario h3{
+    text-align: center;
+  }
+  .formulario form{
+    text-align: center;
+  }
+  .boton{
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  .formulario input{
+    margin: .5rem;
+  }
+  .lista{
+    background: rgb(99, 109, 247);
+  }

@@ -1,0 +1,10 @@
+<h3>Agregar <small>{{nuevopersonaje.nombre}}</small></h3>
+        <hr>    
+            <form (submit)="agregarheroe()">
+                <input name="nombre" [(ngModel)]="nuevopersonaje.nombre" type="text" placeholder="Nombre" >
+                <input name="poder" [(ngModel)]="nuevopersonaje.poder" type="number" placeholder="Poder" >
+                <!-- el ng model actuara para tomar el valor del input y tambien cuando este valor es actualizado por otro -->
+                <div class="boton">
+                    <button type="submit">Agregar personaje</button>
+                </div>
+            </form>
